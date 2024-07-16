@@ -30,7 +30,7 @@ $('document').ready(function(){
 	});
 	$('#play').click(function(){
 		var audio = $('.song')[0];
-		audio.volume = 0.5; // Set the volume to 50%
+		audio.volume = 0.15; // Set the volume to 50%
         audio.play();
         $('#bulb_yellow').addClass('bulb-glow-yellow-after');
 		$('#bulb_red').addClass('bulb-glow-red-after');
